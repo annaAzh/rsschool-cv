@@ -12,13 +12,12 @@ Working as trade marketing manager in a agriculture corporation and years of cov
 ### Skils
 * HTML
 * CSS(SCSS, BEM)
-* JavaScript(Basic)
+* JavaScript (Basic)
 * Git
 * Figma, Photoshop
 ### Code example
 ```function rentalCarCost(d) {
   let rent = 40;
-
   if ( d >= 7) {
     return d*rent - 50;
 } else if (d>=3) {
@@ -30,10 +29,9 @@ return d*rent;}
 ### Experience
 [Marcho](https://github.com/annaAzh/marcho)
 ### Education
-* University:
 * Courses:
-[Курс по Java Script](https://www.udemy.com/course/javascript_full/)
-[Курс по Java Script](https://www.udemy.com/course/the-complete-javascript-course/)
+[Курс по Java Script](https://www.udemy.com/course/javascript_full/) (in process...)
+[Курс по Java Script](https://www.udemy.com/course/the-complete-javascript-course/) (in process...)
 ### English
 * English - B1 (B2 in process...)
 * Russian - native speaker
