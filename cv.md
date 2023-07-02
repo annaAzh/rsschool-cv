@@ -4,15 +4,18 @@
 * __Email:__ forarre@yandex.ru
 * __Telegram:__ @annaAzherina
 * __Discord:__ @annaAzh
-* __GitHub:__ annaAzh
+* __GitHub:__ annaAzh  
+
 ### About me
-Working as trade marketing manager in a agriculture corporation and years of covid restrictions led me to study front-end development. I devote all my free time to studying new technologies. Too bad there aren't 25 hours in a day...
+Working as trade marketing manager in a agriculture corporation and years of covid restrictions led me to study front-end development. I devote all my free time to studying new technologies. Too bad there aren't 25 hours in a day...  
+
 ### Skills
 * HTML
 * CSS (SCSS, BEM)
 * JavaScript (Basic)
 * Git
-* Figma, Photoshop
+* Figma, Photoshop  
+
 ### Code example
 ```function rentalCarCost(d) {
   let rent = 40;
@@ -24,13 +27,16 @@ Working as trade marketing manager in a agriculture corporation and years of cov
   return d*rent;
   }
 };
-```
+```  
+
 ### Experience
-[Marcho](https://github.com/annaAzh/marcho)
+[Marcho](https://github.com/annaAzh/marcho)  
+
 ### Education
 ##### Courses:
 * [Курс по Java Script](https://www.udemy.com/course/javascript_full/) (in process...)
-* [Курс по Java Script](https://www.udemy.com/course/the-complete-javascript-course/) (in process...)
+* [Курс по Java Script](https://www.udemy.com/course/the-complete-javascript-course/) (in process...)  
+
 ### Languages:
 * English - B1 (B2 in process...)
 * Russian - native speaker
