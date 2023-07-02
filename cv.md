@@ -27,4 +27,7 @@ Working as trade marketing manager in a agriculture corporation and years of cov
 ```
 ### Experience
 ### Education
+##### Courses:
+* [Курс по Java Script](https://www.udemy.com/course/javascript_full/) (in process...)
+* [Курс по Java Script](https://www.udemy.com/course/the-complete-javascript-course/) (in process...)
 ### English
