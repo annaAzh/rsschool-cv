@@ -14,6 +14,17 @@ Working as trade marketing manager in a agriculture corporation and years of cov
 * Git
 * Figma, Photoshop
 ### Code example
+```function rentalCarCost(d) {
+  let rent = 40;
+  if (d >= 7) {
+    return d*rent - 50;
+  } else if (d>=3) {
+  return d*rent - 20;
+  } else {
+  return d*rent;
+  }
+};
+```
 ### Experience
 ### Education
 ### English
