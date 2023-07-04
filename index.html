@@ -1,51 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700;800&family=Gelasio:wght@400;500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700;800&family=Gelasio:wght@400;500&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>CV</title>
 </head>
+
 <body>
   <header class="header">
-    <img class="header__img" src="" alt="Anna Azherina">
-    <h1 class="header__title">Anna Azherina</h1>
-    <p class="header__subtitle">Front-end developer</p>
+    <div class="container">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="">
+              Profile
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">
+              Education
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">
+              Work experience
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">
+              Skills
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">
+              Code example
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">
+              Contacts
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">
+              Languages
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="main">
     <div class="container">
-      <section class="contacts">
-        <h2 class="contacts__title title">
-          Contacts
-        </h2>
-        <ul class="contacts__list">
-          <li class="contacts__item">
-            <a class="contacts__link" href="#">forarre@yandex.ru</a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__link" href="#">@annaAzh</a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__link" href="#">@annaAzh</a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__link" href="#">@annaAzherina</a>
-          </li>
-        </ul>
-      </section>
-      <section class="lang">
-        <h2 class="lang__title title">
-          Languages
-        </h2>
-        <ul class="lang__list">
-          <li class="lang__item">Russian - Native</li>
-          <li class="lang__item">English - B1</li>
-        </ul>
-      </section>
+      <div class="wrapper">
+        <div class="column">
+          <section class="person">
+            <div class="person__img-box">
+              <img class="person__img" src="" alt="Anna Azherina">
+            </div>
+            <div class="person__title-box">
+              <h1 class="person__title main-title">Anna <br> Azherina</h1>
+              <p class="person__subtitle">Front-end developer</p>
+            </div>
+          </section>
+          <section class="contacts">
+            <h2 class="contacts__title title">
+              Contacts
+            </h2>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <a class="contacts__link" href="#">forarre@yandex.ru</a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="#">@annaAzh</a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="#">@annaAzh</a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="#">@annaAzherina</a>
+              </li>
+            </ul>
+          </section>
+          <section class="lang">
+            <h2 class="lang__title title">
+              Languages
+            </h2>
+            <ul class="lang__list">
+              <li class="lang__item">Russian - Native</li>
+              <li class="lang__item">English - B1</li>
+            </ul>
+          </section>
+        </div>
+        <div class="column">
+      
+        </div>
+      </div>
+
+
     </div>
   </main>
   <footer class="footer">
@@ -56,8 +116,9 @@
         <a class="footer__link" href="https://rs.school/js-stage0/">
           <img class="footer__link-img" src="assets/icons/logo-rs.svg" alt="RSS School">
         </a>
-      </div> 
+      </div>
     </div>
   </footer>
 </body>
+
 </html>
