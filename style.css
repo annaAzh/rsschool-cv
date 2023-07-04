@@ -1,2 +1,82 @@
-/* font-family: 'Abhaya Libre', serif;
-font-family: 'Gelasio', serif; */
+/*------------------normalize --------------*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+h1,
+body,
+h3,
+h2,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*------------------global --------------*/
+
+body {
+  font-size: 24px;
+  line-height: 120%;
+  color: #000;
+  font-family: 'Gelasio', serif;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main-title {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 72px;
+  line-height: 150%;
+  font-weight: 800;
+}
+
+.title {
+  font-size: 36px;
+}
