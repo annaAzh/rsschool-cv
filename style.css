@@ -200,7 +200,20 @@ body {
 .profile {
   margin-bottom: 47px;
 }
+/*------------------education--------------*/
+.education {
+  margin-bottom: 47px;
+}
+.education__subtitle {
+margin-bottom: 14px;
+}
+.education__desc {
+  margin-bottom: 36px;
+}
 
+.education__item + .education__item {
+  padding-top: 14px;
+}
 /*------------------footer--------------*/
 .footer {
   background-color: #E4E1F2;
