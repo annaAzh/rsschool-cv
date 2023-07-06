@@ -68,7 +68,7 @@ body {
 }
 
 .container {
-  max-width: 1260px;
+  max-width: 1030px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -117,11 +117,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-transform: uppercase;
-  
+  text-transform: uppercase;  
 }
 
 .menu__link {
+  font-size: 16px;
+  font-weight: 400;
   opacity: 1;
   transition: all 0.3s;
 }
@@ -137,18 +138,18 @@ body {
 .person__img-box {
   position: relative;
   z-index: 1;
+  background-image: url();
+  background-position: center center;
+  background-size: cover;
   background-color: #fff;
   margin: 0 auto;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border: 10px solid #E4E1F2;
   box-shadow: 2px 2px 10px 0px #D2D0D0;
 }
-.person__img {
-  width: 100%;
-  object-fit: cover;
-}
+
 .person__title-box {
   position: relative;
   z-index: -1;
@@ -166,7 +167,6 @@ body {
 
 .contacts {
   padding-top: 75px;
-  padding-left: 42px;
   margin-bottom: 75px;
 }
 
@@ -175,7 +175,7 @@ body {
 }
 .contacts__link {
   position: relative;
-  padding-left: 62px;
+  padding-left: 42px;
 }
 
 .contacts__link::before {
@@ -188,9 +188,6 @@ body {
 }
 
 /*------------------languages--------------*/
-.lang {
-  padding-left: 42px;
-}
 
 .lang__item +  .lang__item {
   padding-top: 16px;
@@ -198,22 +195,90 @@ body {
 
 /*------------------profile--------------*/
 .profile {
+  padding-top: 120px;
   margin-bottom: 47px;
 }
+
+.profile__text{
+  font-size: 16px;
+}
+
 /*------------------education--------------*/
 .education {
   margin-bottom: 47px;
 }
 .education__subtitle {
-margin-bottom: 14px;
+  font-size: 18px;
+  margin-bottom: 14px;
 }
 .education__desc {
   margin-bottom: 36px;
 }
 
 .education__item + .education__item {
-  padding-top: 14px;
+  padding-top: 12px;
 }
+
+.education__desc,
+.education__link {
+  font-size: 16px;
+}
+
+/*------------------job--------------*/
+.job {
+  margin-bottom: 47px;
+}
+
+.job__subtitle {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.job__desc {
+  font-size: 16px;
+ margin-bottom: 26px;
+}
+
+/*------------------project--------------*/
+.project {
+  margin-bottom: 47px;
+}
+
+/*------------------skills--------------*/
+
+.skills__item {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 14px;
+}
+
+.skills__item::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #E4E1F2;
+}
+
+/*------------------code--------------*/
+.code {
+  font-size: 14px;
+  max-width: 430px;
+  background-color: rgba(228, 225, 242, 0.37);
+  padding: 10px 30px;
+}
+
+
+.hard-skills__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 47px;
+}
+
 /*------------------footer--------------*/
 .footer {
   background-color: #E4E1F2;
@@ -256,4 +321,105 @@ margin-bottom: 14px;
 .footer__year {
 font-size: 28px;
 letter-spacing: 2px;
+}
+
+
+
+.hamburger {
+  display: none;
+  width: 30px;
+  height: 22px;
+  position: relative;
+  top: 4px;
+  z-index: 100;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.hamburger::before {
+  display: none;
+  width: 100%;
+  background-color: #000;
+  height: 2px;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+}
+.hamburger::after {
+  display: none;
+  width: 100%;
+  background-color: #000;
+  height: 2px;
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+}
+
+.hamburger__line {
+  display: none;
+  width: 100%;
+  background-color: #000;
+  height: 2px;
+  position: absolute;
+  content: '';
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;   
+}
+
+@media screen and (max-width: 960px) {
+ .hamburger,
+ .hamburger::before,
+ .hamburger::after,
+ .hamburger__line {
+  display: inline-block;
+ }
+ .menu__list {
+  display: none;
+ }
+ .hard-skills__inner {
+  flex-direction: column;
+  align-items: start;
+}
+
+.skills {
+  margin-bottom: 45px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .contacts {
+    padding-top: 45px;
+    margin-bottom: 45px;
+  }
+
+  .lang {
+    margin-bottom: 45px;
+  }
+
+  .profile {
+    padding-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .footer__inner {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .footer__link,
+  .footer__year {
+    margin-bottom: 20px;
+  }
+  .footer__link:last-child{
+    width: 100%;
+  }
 }
