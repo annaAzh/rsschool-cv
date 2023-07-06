@@ -140,6 +140,7 @@ body.scroll{
 .person {
   text-align: center;
 }
+
 .person__img-box {
   position: relative;
   z-index: 1;
@@ -472,6 +473,17 @@ letter-spacing: 2px;
     padding-top: 0;
   }
 
+  .footer__link-github {
+    font-size: 18px;
+  }
+
+  .footer__year {
+    font-size: 22px;
+  }
+
+  .footer__link-img {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 500px) {
