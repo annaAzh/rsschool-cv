@@ -144,13 +144,12 @@ body.scroll{
 .person__img-box {
   position: relative;
   z-index: 1;
-  background-image: url(assets/images/photo.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-color: #fff;
   margin: 0 auto;
   width: 250px;
   height: 250px;
+  border-radius: 50%;
+}
+.person__img {
   border-radius: 50%;
   border: 10px solid #E4E1F2;
   box-shadow: 2px 2px 10px 0px #D2D0D0;
